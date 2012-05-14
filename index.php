@@ -1,9 +1,7 @@
 <?php
 
-<<<<<<< HEAD
 =======
 //WUUUUUUUUUUUUUUUUUUUUUURST
->>>>>>> camp/master
 require_once 'libs/smarty/Smarty.class.php';
 require_once 'classes/Database.php';
 require_once 'classes/services/TipperService.php';
@@ -11,7 +9,6 @@ require_once 'classes/services/MannschaftenService.php';
 require_once 'libs/facebook/facebook.php';
 $smarty = new Smarty();
 
-<<<<<<< HEAD
 error_reporting(0);
 
 $d = $_GET['d']; $s = $_GET['s']; $g = $_GET['g'];
@@ -196,7 +193,6 @@ if( $d == '' ){
 
 
 }elseif( $d != '' AND $s != '' ){
-<<<<<<< HEAD
 
 
 }
@@ -224,7 +220,6 @@ $smarty->display( 'tpl/index.tpl' );
 	$smarty->assign( 'content', $content );
 	$smarty->display( 'tpl/index.tpl' );	
 */
->>>>>>> camp/master
 
 
 ?>
