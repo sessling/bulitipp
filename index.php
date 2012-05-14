@@ -2,7 +2,7 @@
 
 <<<<<<< HEAD
 =======
-
+//WUUUUUUUUUUUUUUUUUUUUUURST
 >>>>>>> camp/master
 require_once 'libs/smarty/Smarty.class.php';
 require_once 'classes/Database.php';
